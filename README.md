@@ -6,8 +6,6 @@ Everything you want to know about DFT -> https://dynamicfieldtheory.org/
 
 Cedar is the C++ Framework implementing the concepts of DFT -> https://cedar.ini.rub.de/
 
-Everything you need to know about YARP https://www.yarp.it/
-
 ## Getting Started
 
 The plugin is a widget transforming a 2D matrix (field) to a 1D one.
@@ -55,7 +53,7 @@ Execute cedar and load it into cedar
 
 In the plugin Manager window, click on *add* and choose the plugin libTwoDimOneDim.so (located in build/). This one should appear in the window.
 
-You can close the window. The plugin is loaded inside cedar and before loading it, make sure your ROS node is running.
+You can close the window. The plugin is loaded inside cedar.
 
 You can now go back to the cedar main interface and click on the Utilities tab.
 
