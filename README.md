@@ -1,6 +1,6 @@
 # Motor Control in Cedar
 
-This Cedar plugin allow to send motor commands through YARP
+This Cedar plugin transform a 2D field into a 1D field. If the size of the 2D field is 10x10, the produced 1D field will be 1x100. 
 
 Everything you want to know about DFT -> https://dynamicfieldtheory.org/
 
@@ -32,7 +32,7 @@ The code was tested with cedar and the iCub Simulator
 
 First clone the repository :
 
-`https://github.com/rouzinho/Motor2DYarp.git`
+`https://github.com/rouzinho/2Dto1DField.git`
 
 In the project.conf, change the CEDAR_HOME directory to your own :
 
@@ -58,16 +58,13 @@ Execute cedar and load it into cedar
 
 *Tools -> Manage plugins*
 
-In the plugin Manager window, click on *add* and choose the plugin libMotor.so (located in build/). This one should appear in the window.
+In the plugin Manager window, click on *add* and choose the plugin libTwoDimOneDim.so (located in build/). This one should appear in the window.
 
 You can close the window. The plugin is loaded inside cedar and before loading it, make sure your ROS node is running.
 
 You can now go back to the cedar main interface and click on the Utilities tab.
 
-Drag the MotorHead widget into the architecture panel. Connect the output of a space to rate widget to the input of the MotorHead widget. The outputs of the Neural Field now drive the motor of your choice !
-
-
-## Work in progress
+Drag the widget into the architecture panel. Connect a 2D field to the input and connect the output to a 1D field.
 
 
 The plugin is more like an artefact binding DFT to the iCub robot.
