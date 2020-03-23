@@ -1,4 +1,4 @@
-# Motor Control in Cedar
+# Field Transformation in Cedar
 
 This Cedar plugin transform a 2D field into a 1D field. If the size of the 2D field is 10x10, the produced 1D field will be 1x100. 
 
