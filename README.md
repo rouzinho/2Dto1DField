@@ -10,11 +10,7 @@ Everything you need to know about YARP https://www.yarp.it/
 
 ## Getting Started
 
-The plugin is a widget reading outputs from a Neural Field and publishing the datas to a yarp topic.
-
-You can define directly in the Qt Widget the destination port.
-
-Of course you can adapt it to publish commands to any topics, but you might want to change the scale or format of the datas received from the Neural Field.
+The plugin is a widget transforming a 2D matrix (field) to a 1D one.
 
 The code work for the 6.x version of Cedar.
 
