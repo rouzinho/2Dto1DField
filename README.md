@@ -23,7 +23,6 @@ You can't use a precompiled version of Cedar to compile and run the plugin.
 
 I suggest reading about how to create a plugin in Cedar first, it will greatly help to understand how it works : https://cedar.ini.rub.de/tutorials/writing_custom_code_for_cedar/
 
-The code was tested with cedar and the iCub Simulator
 ### Installing
 
 First clone the repository :
@@ -61,11 +60,6 @@ You can close the window. The plugin is loaded inside cedar and before loading i
 You can now go back to the cedar main interface and click on the Utilities tab.
 
 Drag the widget into the architecture panel. Connect a 2D field to the input and connect the output to a 1D field.
-
-
-The plugin is more like an artefact binding DFT to the iCub robot.
-Work in progress to use Qt elements to control the settings.
-
 
 
 ## Authors
